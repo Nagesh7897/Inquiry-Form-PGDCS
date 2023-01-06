@@ -1,0 +1,53 @@
+* {box-sizing: border-box;
+}
+
+h3, h5, li, p, label{
+	color: white;
+}
+
+#cont{
+	background: rgba(0, 0, 0, 0.6);
+
+}
+
+.btn{
+	margin: 4px;
+}
+
+#condition{
+	font-size:10px;
+}
+
+img{
+	position:absolute;
+	z-index: -2;
+
+}
+ul{
+	list-style-type: none;
+}
+
+
+/*For small display size
+@media(max-width: 600px){
+   nav, article{
+   width: 100%;
+   height: auto;
+   
+   }*/
+   
+   /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+   
+
